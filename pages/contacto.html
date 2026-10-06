@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+</head>
+<body>
+    <header>
+        <h1>Phil Collins</h1>
+        <nav aria-label="Navegación principal">
+            <a href="../index.html">Inicio</a> |
+            <a href="contacto.html">Contacto</a> |
+            <a href="canciones.html">Canciones</a> |
+            <a href="discos.html">Discografía</a> |
+            <a href="bio.html">Biografía</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Contacto</h2>
+        <p>Envía un mensaje relacionado con la música y la discografía de Phil Collins.</p>
+        <form action="contacto.html" method="get">
+            <fieldset>
+                <legend>Formulario de contacto</legend>
+
+                <p>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" autocomplete="name" required>
+                </p>
+                <p>
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="email" id="correo" name="correo" autocomplete="email" required>
+                </p>
+                <p>
+                    <label for="tema">Tema de consulta:</label>
+                    <select id="tema" name="tema" required>
+                        <option value="" selected disabled>Selecciona un tema</option>
+                        <option value="canciones">Canciones</option>
+                        <option value="albumes">Álbumes</option>
+                        <option value="biografia">Biografía</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea id="mensaje" name="mensaje" rows="5" cols="40" required></textarea>
+                </p>
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+    <p>Sitio informativo sobre Phil Collins.</p>
+</footer>
+</body>
+</html>

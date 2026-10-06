@@ -4,18 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Phil Collins</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>Phil Collins</h1>
         <nav aria-label="Navegación principal">
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="pages/canciones.html">Canciones</a></li>
-                <li><a href="pages/discos.html">Discografía</a></li>
-                <li><a href="pages/bio.html">Biografía</a></li>
-            </ul>
+            <a href="pages/contacto.html">Contacto</a> |
+            <a href="pages/canciones.html">Canciones</a> |
+            <a href="pages/discos.html">Discografía</a> |
+            <a href="pages/bio.html">Biografía</a>
         </nav>
     </header>
 <main>
@@ -40,6 +37,24 @@
               
             </ul>
         </div>
+        <section>
+            <h2>Multimedia</h2>
+            <h3>Muestra de audio original</h3>
+            <audio controls>
+                <source src="assets/audio/muestra-original.wav" type="audio/wav">
+                Tu navegador no puede reproducir este audio.
+            </audio>
+            <h3>Chiswick, Londres</h3>
+            <iframe
+                width="560"
+                height="315"
+                src="https://www.google.com/maps/embed?origin=mfe&amp;pb=!1m3!2m1!1sChiswick,+London!6i12"
+                title="Mapa de Chiswick, Londres, lugar de nacimiento de Phil Collins"
+                loading="lazy"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen>
+            </iframe>
+        </section>
 </main>
 <footer>
     <p>Sitio informativo sobre Phil Collins.</p>
