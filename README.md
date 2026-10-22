@@ -1,21 +1,24 @@
-royecto-html-Phill-CollinsMención honorífica a la inteligencia artificial de Visual Studio Code y ChatGPT por su colaboración en la corrección de errores de código y ortografía, además de sus sugerencias. También ayudó a detectar problemas que podían dejar líneas marcadas en rojo.
+URL publicada: pendiente de configurar GitHub Pages.
 
-La información de este proyecto se consultó en Wikipedia , Google y se complementó con datos y resúmenes proporcionados por Gemini.
+# Proyecto integrador: estructura de un sitio web
 
-## Proyecto
+Sitio web multipágina sobre Phil Collins, desarrollado con HTML5 semántico y criterios básicos de accesibilidad.
 
-Sitio web informativo sobre Phil Collins, desarrollado con HTML5 para la Preentrega 2 del curso. El proyecto incluye varias páginas conectadas mediante un menú de navegación.
+## Páginas
 
-## Contenido
+- `index.html`: presentación del artista, reproductor de audio local y mapa de Chiswick, Londres.
+- `pages/bio.html`: biografía del artista e imagen con texto alternativo.
+- `pages/canciones.html`: canciones destacadas y video incrustado de YouTube.
+- `pages/discos.html`: discografía y tabla accesible de álbumes de estudio.
+- `pages/contacto.html`: formulario con etiquetas asociadas y validación nativa de HTML5.
 
-- `index.html`: presentación del artista, reproductor de audio local y mapa externo de Chiswick, Londres.
-- `pages/canciones.html`: canciones destacadas y un video de Phil Collins incrustado desde YouTube.
-- `pages/discos.html`: discografía y tabla de álbumes de estudio con encabezados accesibles.
-- `pages/bio.html`: biografía del artista.
-- `pages/contacto.html`: formulario de contacto con etiquetas asociadas, campos obligatorios y validación nativa del navegador.
-- `assets/audio/muestra-original.wav`: muestra de audio original utilizada por el reproductor.
+## Recursos
+
+- `assets/audio/muestra-original.wav`: audio local utilizado en los reproductores.
 - `assets/img/`: imágenes del sitio.
 
-## Tecnologías y uso
+## Uso y publicación
 
-El sitio está construido con HTML semántico y no necesita instalar dependencias. Para verlo, abre `index.html` en un navegador. El video de YouTube y el mapa requieren conexión a Internet; para probar el video, es recomendable servir el sitio desde un servidor local en lugar de abrir el archivo directamente.
+No se necesitan dependencias. Abre `index.html` en un navegador o sirve la carpeta del proyecto desde un servidor local. El video, el mapa y la publicación de GitHub Pages requieren conexión a Internet.
+
+Para publicar, sube el contenido de esta carpeta a un repositorio público y activa GitHub Pages desde **Settings > Pages**. Después, reemplaza la primera línea de este archivo por la URL publicada. El formulario aplica validación del navegador; para recibir y almacenar mensajes hace falta conectar un servicio o backend.
